@@ -1,0 +1,21 @@
+Los patrones de diseño son soluciones probadas y estandarizadas a problemas comunes en el desarrollo de software. Aquí están las características principales de algunos patrones de diseño comunes, junto con su propósito y un ejemplo de caso de uso:
+
+Patrón de diseño Singleton:
+Propósito: garantiza que una clase solo tenga una instancia y proporciona un punto global de acceso a ella.
+Caso de uso: por ejemplo, un objeto que necesita mantener un registro de sus estados en un archivo de registro debe usar el patrón Singleton para garantizar que solo haya un registro en todo el sistema.
+
+Patrón de diseño Factory:
+Propósito: proporciona una interfaz para crear objetos de un tipo específico, pero permite a las subclases decidir qué clase instanciar.
+Caso de uso: por ejemplo, una aplicación de venta de productos en línea puede tener una clase Factory que produce objetos de la clase "Producto". Las subclases de esta fábrica podrían instanciar objetos de diferentes tipos de productos, como "Ropa", "Electrónica" o "Juguetes".
+
+Patrón de diseño Observer:
+Propósito: define una relación de uno a muchos entre objetos, de modo que cuando un objeto cambia de estado, todos sus dependientes son notificados y actualizados automáticamente.
+Caso de uso: por ejemplo, un objeto que necesita actualizar su interfaz gráfica de usuario cuando cambia de estado debe usar el patrón Observer para notificar a todos los observadores registrados (que podrían ser los componentes de la GUI).
+
+Patrón de diseño Decorator:
+Propósito: permite agregar funcionalidad a un objeto dinámicamente, envolviéndolo en un objeto decorador que agrega la funcionalidad adicional.
+Caso de uso: por ejemplo, un objeto que necesita tener diferentes configuraciones de atributos y métodos, pero no desea tener subclases separadas para cada configuración, puede usar el patrón Decorator para decorar la clase base con los atributos y métodos adicionales.
+
+Patrón de diseño Adapter:
+Propósito: convierte la interfaz de una clase en otra interfaz que el cliente espera.
+Caso de uso: por ejemplo, un objeto que necesita adaptar la interfaz de su cliente para que funcione con una biblioteca de terceros puede usar el patrón Adapter para envolver la biblioteca con una clase adaptadora que imita la interfaz esperada por el cliente.

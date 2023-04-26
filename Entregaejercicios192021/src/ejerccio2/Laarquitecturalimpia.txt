@@ -1,0 +1,31 @@
+La arquitectura limpia, también conocida como Clean Architecture,
+es un enfoque de diseño de software que se enfoca en la separación de responsabilidades y
+la independencia de los componentes del sistema,
+con el objetivo de crear sistemas altamente escalables, mantenibles y testables.
+Algunas de las características principales de la arquitectura limpia son:
+
+Separación de capas:
+la arquitectura limpia propone una separación clara de las capas del sistema,
+desde la capa de presentación hasta la capa de datos, con el objetivo de mantener una dependencia
+mínima entre ellas y permitir su reutilización y modificación independiente.
+
+Independencia de framework y librerías:
+la arquitectura limpia promueve la independencia de framework y librerías externas,
+para reducir la dependencia de tecnologías específicas y mejorar la portabilidad del sistema.
+
+Foco en la lógica de negocio:
+la arquitectura limpia se enfoca en separar la lógica de negocio de la implementación técnica,
+con el objetivo de mejorar la comprensión del sistema y facilitar su mantenimiento.
+
+Testabilidad:
+la arquitectura limpia promueve la testabilidad del sistema,
+a través de la separación de capas y la independencia de framework y librerías,
+para facilitar la creación de pruebas automatizadas y mejorar la calidad del software.
+
+Para implementar la arquitectura limpia, se puede seguir los siguientes pasos:
+
+1. Identificar las diferentes capas del sistema, desde la capa de presentación hasta la capa de datos.
+2. Definir las interfaces y los contratos entre las diferentes capas, para separar la lógica de negocio de la implementación técnica.
+3. Implementar las diferentes capas del sistema, asegurándose de mantener la independencia de framework y librerías externas.
+4. Crear pruebas automatizadas para cada capa del sistema, con el objetivo de garantizar su correcto funcionamiento.
+5. Iterar sobre el sistema, mejorando su diseño y arquitectura según sea necesario.
